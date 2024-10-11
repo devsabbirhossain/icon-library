@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magnet Icon Picker | Sabbir Hossain</title>
+    <link
+      rel="shortcut icon"
+      href="./assects/images/favicon.ico"
+      type="image/x-icon" />
+    <link rel="stylesheet" href="./assects/css/magnetIconPicker.css" />
+    <link rel="stylesheet" href="./assects/fonts/all.css" />
+    <link rel="stylesheet" href="./assects/css/index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Magnet Icon Library</h1>
+      <p>Easy and customizable icon picker for your projects</p>
+      <a
+        class="button btn-margin btn-header"
+        href="https://github.com/devsabbirhossain/magnet-icon-library"
+        target="_blank"
+        >View on Github</a
+      >
+    </header>
+
+    <section id="features">
+      <h2>Features</h2>
+      <div class="feature">
+        <p>
+          🎨 **Wide Variety of Icons** - Choose from hundreds of icons, easily
+          categorized for quick access.
+        </p>
+      </div>
+      <div class="feature">
+        <p>
+          ⚙️ **Customizable Options** - Change colors, sizes, and styles to
+          match your brand.
+        </p>
+      </div>
+      <div class="feature">
+        <p>
+          🔄 **Live Preview** - See a real-time preview of the selected icon and
+          its customizations.
+        </p>
+      </div>
+    </section>
+
+    <section id="demo">
+      <h2>Single Icon Demo</h2>
+      <p class="add-bottom-margin">Choose One Icon Per Page</p>
+      <div class="mil-icon-picker">
+        <div id="icon-placeholder" class="icon-placeholder">
+          <i class="fas fa-circle"></i>
+          <input type="hidden" name="icon-value" id="icon-value" value="" />
+        </div>
+        <div class="tw-flex tw-gap-2 tw-items-center" id="icon-picker-wrap">
+          <span
+            id="icon-none"
+            class="del icon-none tw-text-accent-red-500 hover:tw-text-red-800 hover:tw-underline btn-remove"
+            >Remove</span
+          >
+          <span class="button button-primary bkit-w-100 icon-picker btn-margin">
+            <span id="select-icon" class="select-icon"> Add Icon </span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2024
+        <a class="btn-url" href="https://devsabbirhossain.com" target="_blank"
+          >DevSabbirHossain</a
+        >, All rights reserved. |
+        <a
+          href="mailto:sabbir2dev@gmail.com"
+          style="color: #fff; text-decoration: none"
+          >Contact Me</a
+        >
+      </p>
+    </footer>
+
+    <script src="./assects/icon-picker/magnet-picker.js"></script>
+    <script src="./assects/js/index.js"></script>
+  </body>
+</html>

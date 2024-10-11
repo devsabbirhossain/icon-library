@@ -1,4 +1,4 @@
-const MagnetPicker = function (option) {
+var MagnetPicker = function (option) {
   "use strict";
   var allIcons = {
     "font-awesome": {
@@ -1884,4 +1884,4 @@ const MagnetPicker = function (option) {
   }
 };
 
-export default MagnetPicker;
+// export default MagnetPicker;
