@@ -27,7 +27,8 @@ section {
   text-align: center;
 }
 #features,
-#demo {
+#demo,
+#demo2 {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -101,4 +102,13 @@ footer p {
 
 .add-bottom-margin {
   margin-bottom: 20px;
+}
+
+.multiple-icon {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
 }
