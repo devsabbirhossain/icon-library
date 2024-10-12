@@ -11,7 +11,7 @@ A simple and customizable Icon Picker Library that allows you to easily integrat
 
 ## Demo
 
-[Live Demo](https://github.com/devsabbirhossain/magnet-icon-library/archive/refs/heads/master.zip) – Try out the Icon Picker Library and explore the different customization options available.
+[Live Demo](https://projects.devsabbirhossain.com/magnet-icon-library/) – Try out the Icon Picker Library and explore the different customization options available.
 
 ## Installation
 
