@@ -19,7 +19,7 @@ To use the Icon Picker Library in your project, you can download the source code
 
 ### Option 1: Direct Download
 
-1. Download the latest release from the [GitHub Releases](https://github.com/devsabbirhossain/magnet-icon-library) page.
+1. Download the latest release from the [GitHub Releases](https://github.com/devsabbirhossain/magnet-icon-library/archive/refs/heads/master.zip) page.
 2. Include the CSS and JavaScript files in your HTML file:
 
    ```html
